@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+body {
+        height: 100vh;
+      background: #222;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 7px,
+    rgba(0, 0, 0, 0.8) 9px,
+    rgba(0, 0, 0, 0.8) 13px,
+    transparent 13px
+  );
+    }
+h1 {
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+font-family: 'Londrina Outline', cursive;
+  letter-spacing: 12px;
+    animation: blink 3s infinite alternate;
+
+}
+.text1 {
+  text-shadow: 0 0 5px #ff7bac,
+               0 0 20px #ff7bac,
+               0 0 40px #ff7bac,
+               0 0 60px #ff7bac,
+               0 0 80px #ff7bac,
+               0 0 100px #ff7bac;
+}
+
+.text2 {
+  text-shadow: 0 0 5px #7bacff,
+               0 0 20px #7bacff,
+               0 0 40px #7bacff,
+               0 0 600px #7bacff,
+               0 0 80px #7bacff,
+               0 0 100px #7bacff;
+}
+
+.text3 {
+  text-shadow: 0 0 5px #7bffce,
+               0 0 20px #7bffce,
+               0 0 40px #7bffce,
+               0 0 600px #7bffce,
+               0 0 80px #7bffce,
+               0 0 100px #7bffce;
+}
+
+
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0.8;
+  }
+  53% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.2;
+  }
+  56% {
+    opacity: 1;
+  }
+}
